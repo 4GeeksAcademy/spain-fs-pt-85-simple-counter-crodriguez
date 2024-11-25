@@ -4,6 +4,9 @@
 .fondoClock {
     text-align: center;
     background-color: black;
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
 }
 .fondoClock div {
     display: inline-block;
@@ -13,4 +16,6 @@
     margin: 5px;
     font-size: 60px;
     line-height: 60px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 600;
 }

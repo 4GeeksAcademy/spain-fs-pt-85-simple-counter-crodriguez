@@ -3,11 +3,8 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import PropTypes from 'prop-types';
 
-import "./icons.js";
 import 'bootstrap';
 import '../styles/index.css';
-
-// include your styles into the webpack bundle
 
 
 //import your own components
@@ -15,7 +12,7 @@ function SimpleCounter(props){
     return (
         <div className="fondoClock">
             <div className="clock">
-                <i clasname="far fa-clock"></i>
+                <i className="far fa-clock"></i>
             </div>
             <div className="six">{props.digitSix % 10}</div>
             <div className="five">{props.digitFive % 10}</div>
